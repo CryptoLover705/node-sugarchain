@@ -7,7 +7,7 @@ var api = require('./commands'),
 function Client(options) {
     this.opts = {
         host: 'localhost',
-        port: 7142,
+        port: 34229,
         method: 'POST',
         user: '',
         pass: '',
