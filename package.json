@@ -1,0 +1,22 @@
+{
+  "name": "@cryptolover705/node-sugarchain",
+  "version": "0.1.2",
+  "description": "sugarchain RPC Node Client",
+  "main": "./sugarchain.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CryptoLover705/node-sugarchain.git"
+  },
+  "keywords": [
+    "sugarchain"
+  ],
+  "author": "CryptoLover705",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CryptoLover705/node-sugarchain/issues"
+  },
+  "homepage": "https://github.com/CryptoLover705/node-sugarchain"
+}
