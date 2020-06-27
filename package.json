@@ -2,6 +2,7 @@
   "name": "@cryptolover705/node-sugarchain",
   "version": "0.1.2",
   "description": "sugarchain RPC Node Client",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "main": "./sugarchain.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
