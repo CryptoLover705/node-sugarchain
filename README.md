@@ -1,4 +1,4 @@
-# A Node.js Astracoin Client!
+# A Node.js Sugarchain Client!
 
 
 node-sugarchain is a sugarchain client for Node.js. It is a fork of the excellent Kapitalize Bitcoin Client (now removed from GitHub) intended for use with most sugarchains. The purpose of this repository is:
@@ -9,11 +9,11 @@ node-sugarchain is a sugarchain client for Node.js. It is a fork of the excellen
 
 ## Dependencies
 
-You'll need a running instance of a [Astracoind](https://github.com/CryptoLover705/astra-wallets/releases/download/1.0.0.2/Astralinux.zip) to connect with. 
+You'll need a running instance of a [Sugarchaind](https://github.com/sugarchain-project/sugarchain/releases/latest) to connect with. 
 
 Then, install the node-sugarchain NPM package.
 
-`npm install node-astracoin`
+`npm install node-sugarchain`
 
 or
 
@@ -24,7 +24,7 @@ or
 Some code examples follow below.
 
 ```js
-var astracoin = require('node-astracoin')()
+var sugarchain = require('node-sugarchain')()
 
 sugarchain.auth('myusername', 'mypassword')
 
